@@ -10,3 +10,4 @@ Links of useful Resources (nice to read):
 *	[UML Revision](https://drive.google.com/open?id=1Hkn_BHRFjm42G_R1VN0k3cQntGX5Hv-7)
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG) - All you need to know is here
+*	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
