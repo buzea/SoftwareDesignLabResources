@@ -12,3 +12,6 @@ Links of useful Resources:
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG) - All you need to know is here
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 *	[How to export MySQL Database to SQL Script](https://youtu.be/ffmCGVse8yg)
+
+## Resources from Laboratory 2:
+*	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
