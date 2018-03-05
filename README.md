@@ -2,7 +2,7 @@
 
 The contents of this repository will be updated on the go with the assignments and useful resources.
 
-Links of useful Resources:
+##	Links of useful Resources:
 
 *	[Martin Fowler Book](http://disi.unal.edu.co/dacursci/sistemasycomputacion/docs/SWEBOK/Systems%20Engineering%20-%20EAA%20-%20Patterns%20of%20Enterprise%20Application%20Architecture%20-%20Addison%20Wesley.pdf "Martin Fowler PEAA") - Read Chapters 10 and 9 first of all
 *	[Repository with resources from last year](https://github.com/SoftwareDesign2017/SoftwareDesign2017 "SoftwareDesign2017") - Don't worry we won't do the same assignments
@@ -15,3 +15,7 @@ Links of useful Resources:
 
 ## Resources from Laboratory 2:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
+*	[How To create a multi module maven project](https://www.youtube.com/watch?v=obHce3gvgec) - Use this as example to create your 3-Tier project structure, but adapt it to our needs: No web app and name modules accordingly:
+..*	presentation is ok
+..* service <=> business
+..* integration <=> dao  
