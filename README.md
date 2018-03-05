@@ -17,7 +17,7 @@ The contents of this repository will be updated on the go with the assignments a
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
 *	[How To create a multi module maven project](https://www.youtube.com/watch?v=obHce3gvgec) - Use this as example to create your 3-Tier project structure, but adapt it to our needs: No web app and name modules accordingly:
 	<ol>
-			<li> presentation is ok </li>
-			<li> service <=> business </li>
-			<li> integration <=> dao </li>
+			<li> presentation is ok, could be renamed to "ui" </li>
+			<li> service <=> "business" </li>
+			<li> integration <=> "dao" </li>
 	</ol>
