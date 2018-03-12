@@ -12,8 +12,9 @@ The contents of this repository will be updated on the go with the assignments a
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG) - All you need to know is here
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 *	[How to export MySQL Database to SQL Script](https://youtu.be/ffmCGVse8yg)
+*	[Free Database Hosting](https://www.freemysqlhosting.net) max 5MB
 
-## Resources from Laboratory 2:
+## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
 *	[How To create a multi module maven project](https://www.youtube.com/watch?v=obHce3gvgec) - Use this as example to create your 3-Tier project structure, but adapt it to our needs: No web app and name modules accordingly:
 	<ol>
@@ -21,3 +22,7 @@ The contents of this repository will be updated on the go with the assignments a
 			<li> service <=> "business" </li>
 			<li> integration <=> "dao" </li>
 	</ol>
+	
+
+## Resources for Assignment 2:
+*	[Hibernate Tutorial](https://www.journaldev.com/3793/hibernate-tutorial)
