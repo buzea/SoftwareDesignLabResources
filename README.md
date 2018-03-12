@@ -1,6 +1,8 @@
 # Laboratory Resources for Software Design 2018
 
 The contents of this repository will be updated on the go with the assignments and useful resources.
+###	[Attendance And Grades](https://docs.google.com/spreadsheets/d/1NU7DB_1LwxpQYJ7KimdscYEL8o9uWoAEIaiV-8zn_gM/edit?usp=sharing)
+In case of any error, please report it within two weeks
 
 ##	Links of useful Resources:
 
@@ -23,6 +25,7 @@ The contents of this repository will be updated on the go with the assignments a
 			<li> integration <=> "dao" </li>
 	</ol>
 	
+
 
 ## Resources for Assignment 2:
 *	[Hibernate Tutorial](https://www.journaldev.com/3793/hibernate-tutorial)
