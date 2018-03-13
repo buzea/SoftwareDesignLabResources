@@ -15,6 +15,7 @@ In case of any error, please report it within two weeks
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 *	[How to export MySQL Database to SQL Script](https://youtu.be/ffmCGVse8yg)
 *	[Free Database Hosting](https://www.freemysqlhosting.net) max 5MB
+*	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4)
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
