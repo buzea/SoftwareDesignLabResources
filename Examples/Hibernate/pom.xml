@@ -12,6 +12,7 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
+                <version>3.7.0</version>
             </plugin>
         </plugins>
     </build>
@@ -32,6 +33,13 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.0.5</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>

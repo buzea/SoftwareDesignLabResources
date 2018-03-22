@@ -13,7 +13,7 @@
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.show_sql">true</property>
         
-        <mapping class="com.journaldev.hibernate.model.Cart"/>
-        <mapping class="com.journaldev.hibernate.model.Items"/>
+        <mapping class="ro.utcn.sd.model.Cart"/>
+        <mapping class="ro.utcn.sd.model.Items"/>
     </session-factory>
 </hibernate-configuration>
