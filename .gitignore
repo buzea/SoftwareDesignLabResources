@@ -1,0 +1,12 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+/.idea
+/classes
+/target
+/bin
+/build
+/fft
+.settings
+.classpath
+.project
+.idea
+*.iml

@@ -5,6 +5,9 @@ import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import ro.utcn.sd.dao.CartDao;
+import ro.utcn.sd.dao.ItemsDao;
+import ro.utcn.sd.dao.factory.DaoFactory;
 import ro.utcn.sd.model.Cart;
 import ro.utcn.sd.model.Items;
 import ro.utcn.sd.util.HibernateUtil;
@@ -26,41 +29,11 @@ public class Main
         cart.setItems(itemsSet);
         cart.setTotal(10 * 1 + 20 * 2);
 
-        SessionFactory sessionFactory = null;
-        Session session = null;
-        Transaction tx = null;
-        try
-        {
-            //Get Session
-            sessionFactory = HibernateUtil.getSessionFactory();
-            session = sessionFactory.getCurrentSession();
-            System.out.println("Session created");
-            //start transaction
-            tx = session.beginTransaction();
-            //Save the Model object
-            session.save(cart);
-            session.save(item1);
-            session.save(item2);
-            //Commit transaction
-            tx.commit();
-            System.out.println("Cart ID=" + cart.getId());
-            System.out.println("item1 ID=" + item1.getId() + ", Foreign Key Cart ID=" + item1.getCart().getId());
-            System.out.println("item2 ID=" + item2.getId() + ", Foreign Key Cart ID=" + item1.getCart().getId());
+        CartDao cartDao = DaoFactory.getInstance(DaoFactory.Type.HIBERNATE).getCartDao();
 
-        }
-        catch (Exception e)
-        {
-            System.out.println("Exception occured. " + e.getMessage());
-            e.printStackTrace();
-        }
-        finally
-        {
-            if (!sessionFactory.isClosed())
-            {
-                System.out.println("Closing SessionFactory");
-                sessionFactory.close();
-            }
-        }
+        cartDao.insert(cart);
+        cartDao.closeConnection();
+        System.out.println("Done");
     }
 
 }

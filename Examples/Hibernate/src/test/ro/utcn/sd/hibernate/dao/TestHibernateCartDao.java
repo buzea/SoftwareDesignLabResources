@@ -15,20 +15,31 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import ro.utcn.sd.dao.imp.hibernate.HibernateCartDao;
 import ro.utcn.sd.dao.CartDao;
 import ro.utcn.sd.model.Cart;
+import ro.utcn.sd.model.Items;
 
-public class TestCartDao {
+import java.util.HashSet;
+import java.util.Set;
+
+public class TestHibernateCartDao {
 
     private CartDao subject;
-    private long latestId;
+    private long    latestId;
 
     @Before
     public void setup() {
-        subject = new CartDao();
+        subject = new HibernateCartDao();
         Cart cart = new Cart();
         cart.setName("TestCart");
         cart.setTotal(10);
+        Items item1 = new Items("I10", 10, 1, cart);
+        Items item2 = new Items("I20", 20, 2, cart);
+        Set<Items> itemsSet = new HashSet<Items>();
+        itemsSet.add(item1);
+        itemsSet.add(item2);
+        cart.setItems(itemsSet);
         subject.insert(cart);
         latestId = cart.getId();
     }
@@ -37,6 +48,7 @@ public class TestCartDao {
     public void testFind() {
         Cart cart = subject.find(latestId);
         Assert.assertNotNull(cart);
+        Assert.assertEquals(2,cart.getItems().size());
         Assert.assertEquals(latestId, cart.getId());
         Assert.assertEquals("TestCart", cart.getName());
         Assert.assertEquals(0, Double.compare(10, cart.getTotal()));

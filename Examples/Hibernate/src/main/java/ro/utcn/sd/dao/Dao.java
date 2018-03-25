@@ -20,4 +20,8 @@ public interface Dao<T>
     void update(T objectToUpdate);
 
     void insert(T objectToCreate);
+
+    void deleteById(long id);
+
+    void closeConnection();
 }
