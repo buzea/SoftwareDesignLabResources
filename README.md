@@ -28,5 +28,6 @@ In case of any error, please report it within two weeks
 
 
 ## Resources for Assignment 2:
+*	[Structure for storing a tournament](https://docs.google.com/presentation/d/1k0A6Y5MV830cZgmHlqgqblFgtVWtaZNa3e6OCNBlkeY/edit?usp=sharing)
 *	[Hibernate Tutorial](https://www.journaldev.com/3793/hibernate-tutorial) Mandatory Chapters: 1,2,3,4,5,8.
 *	[Hibernate Example + Abstract Factory](https://github.com/buzea/SoftwareDesign2018/tree/master/Examples/Hibernate)
