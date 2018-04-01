@@ -5,6 +5,8 @@
 /bin
 /build
 /fft
+/out
+/out
 .settings
 .classpath
 .project
