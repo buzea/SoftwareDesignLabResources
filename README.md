@@ -15,7 +15,7 @@ In case of any error, please report it within two weeks
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 *	[How to export MySQL Database to SQL Script](https://youtu.be/ffmCGVse8yg)
 *	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4)
-*	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x)
+*	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/)
 
 ## Resources for Assignment 1:
