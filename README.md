@@ -17,6 +17,7 @@ In case of any error, please report it within two weeks
 *	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4)
 *	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/)
+*	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html)
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
