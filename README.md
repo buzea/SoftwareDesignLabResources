@@ -35,3 +35,5 @@ In case of any error, please report it within two weeks
 *	[Hibernate Tutorial](https://www.journaldev.com/3793/hibernate-tutorial) Mandatory Chapters: 1,2,3,4,5,8.
 *	[Hibernate Example + Abstract Factory](https://github.com/buzea/SoftwareDesign2018/tree/master/Examples/Hibernate)
 *	[MVC + Observable Slides](https://docs.google.com/presentation/d/1RlRJl_5q7cNeaB6W3HWTmMxhjRbOjWzFFMa99Bej7Bo/edit?usp=sharing)
+
+## [Feedback Form](https://goo.gl/forms/0GK7i1fQHjAjWg6T2)
