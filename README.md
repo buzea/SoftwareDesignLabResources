@@ -19,6 +19,7 @@ In case of any error, please report it within two weeks
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/)
 *	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html)
 *	[How to write a many-to-many](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
+*	[Spring Boot Web App](https://dzone.com/articles/creating-a-web-application-with-spring-boot)
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
