@@ -14,11 +14,12 @@ In case of any error, please report it within two weeks
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG)
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
+*	[How to write a many-to-many with Hibernate](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
 <!--*	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4) 
 *	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/) 
-*	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html) -->
-*	[How to write a many-to-many with Hibernate](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
+*	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html)
+
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
@@ -38,3 +39,5 @@ In case of any error, please report it within two weeks
 *	[MVC + Observable Slides](https://docs.google.com/presentation/d/1RlRJl_5q7cNeaB6W3HWTmMxhjRbOjWzFFMa99Bej7Bo/edit?usp=sharing)
 
 ## [Feedback Form](https://goo.gl/forms/0GK7i1fQHjAjWg6T2)
+
+ -->
