@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Software Design Demo</title>
+    <link rel="stylesheet" media="screen" th:href="@{/css/bootstrap.min.css}" type="text/css"/>
+    <link rel="stylesheet" media="screen" th:href="@{/css/core.css}" type="text/css"/>
+    <base href="/">
+</head>
+<body>
+<div th:replace="common/header::navbar"></div>
+<div class="container">
+    <h1>Details for post: <span th:text="${post.title}"/></h1>
+    <table>
+        <thead>
+        <tr>
+            <th>Tags</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="tag : ${tags}">
+            <td><span th:text="${tag.name}"> Author </span></td>
+            <!--Implement the remove to obtain points-->
+            <td><a th:href="'/removeTag/' + ${post.id}+'/'+${tag.id}">Remove</a></td>
+        </tr>
+        <tr>
+            <form th:action="@{/createPost}" th:object="${newMapping}" method="post">
+                <td><input type="text" th:field="*{tagName}"/></td>
+                <td><input type="submit" value="Create"/></td>
+                <input type="hidden" th:field="*{post}">
+            </form>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<footer th:replace="~{common/footer::footer}"></footer>
+</body>
+</html>

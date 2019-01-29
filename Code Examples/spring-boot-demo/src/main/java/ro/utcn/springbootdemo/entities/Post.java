@@ -22,14 +22,25 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
-import lombok.Data;
+import org.hibernate.annotations.GenericGenerator;
+import lombok.Getter;
+import lombok.Setter;
+import com.google.common.base.Objects;
 
 @Entity
-@Data
+@Getter
+@Setter
 public class Post
 {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(
+        strategy = GenerationType.AUTO,
+        generator = "native"
+    )
+    @GenericGenerator(
+        name = "native",
+        strategy = "native"
+    )
     private Long id;
 
     @Column
@@ -51,5 +62,23 @@ public class Post
     {
         tag.getPostList().remove(this);
         return tags.remove(tag);
+    }
+
+    @Override
+    public boolean equals(Object o)
+    {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Post post = (Post) o;
+        return Objects.equal(id, post.id) &&
+            Objects.equal(title, post.title);
+    }
+
+    @Override
+    public int hashCode()
+    {
+        return Objects.hashCode(id, title);
     }
 }

@@ -16,22 +16,53 @@ import java.util.Set;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
-import lombok.Data;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.NaturalId;
+import lombok.Getter;
+import lombok.Setter;
+import com.google.common.base.Objects;
 
 @Entity
-@Data
+@Getter
+@Setter
 public class Tag
 {
     @Id
-    @GeneratedValue
+    @GeneratedValue(
+        strategy = GenerationType.AUTO,
+        generator = "native"
+    )
+    @GenericGenerator(
+        name = "native",
+        strategy = "native"
+    )
     private Long id;
 
-    @Column
+    @Column(nullable = false, unique = true)
+    @NaturalId
     private String name;
 
     @ManyToMany(mappedBy = "tags")
     private Set<Post> postList = new HashSet<>();
 
+    @Override
+    public boolean equals(Object o)
+    {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Tag tag = (Tag) o;
+        return Objects.equal(id, tag.id) &&
+            Objects.equal(name, tag.name);
+    }
+
+    @Override
+    public int hashCode()
+    {
+        return Objects.hashCode(id, name);
+    }
 }
