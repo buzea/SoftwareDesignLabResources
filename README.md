@@ -13,13 +13,13 @@ In case of any error, please report it within two weeks
 *	[UML Revision](https://drive.google.com/open?id=1Hkn_BHRFjm42G_R1VN0k3cQntGX5Hv-7)
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG)
-*	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 *	[Automatic Id Generation with Hibernate 5 and MySQL](https://vladmihalcea.com/why-should-not-use-the-auto-jpa-generationtype-with-mysql-and-hibernate/)
 *	[How to write a many-to-many with Hibernate](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
 <!--*	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4) 
 *	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/) 
 *	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html)
+*	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 
 
 ## Resources for Assignment 1:
