@@ -5,7 +5,7 @@ The contents of this repository will be updated on the go with the assignments a
 In case of any error, please report it within two weeks
 
 ##	Useful Resources:
-
+*	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
 *	[Martin Fowler - Patterns of Enterprise Application Architecture](http://training.hasintech.com/download/attachments/1802696/Patterns%20of%20Enterprise%20Application%20Architecture%20-%20Martin%20Fowler.pdf?version=1&modificationDate=1464702352696&api=v2) - Read Chapters 10 and 9 first of all
 *	[Resources by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/SoftwareDesign2018/blob/master/README.md)
 *	[Examples  by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
@@ -14,6 +14,7 @@ In case of any error, please report it within two weeks
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG)
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
+*	[Automatic Id Generation with Hibernate 5 and MySQL](https://vladmihalcea.com/why-should-not-use-the-auto-jpa-generationtype-with-mysql-and-hibernate/)
 *	[How to write a many-to-many with Hibernate](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
 <!--*	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4) 
 *	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
