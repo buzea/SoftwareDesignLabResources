@@ -10,7 +10,7 @@ In case of any error, please report it within two weeks
 *	[Resources by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/SoftwareDesign2018/blob/master/README.md)
 *	[Examples  by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
 *	[The Outdated projects I did when I was a student](https://github.com/buzea/Software-Design "Mambo Jambo Jibberish")
-*	[UML Revision](https://drive.google.com/open?id=1Hkn_BHRFjm42G_R1VN0k3cQntGX5Hv-7)
+*	[UML Recap](https://drive.google.com/file/d/1prsQZhEYxRUixXnMkxZsiUDUAdJ8-9ij/view?usp=sharing)
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG)
 *	[Automatic Id Generation with Hibernate 5 and MySQL](https://vladmihalcea.com/why-should-not-use-the-auto-jpa-generationtype-with-mysql-and-hibernate/)
