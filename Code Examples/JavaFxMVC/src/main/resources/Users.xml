@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Personnel>
+    <User type="admin">
+        <Username>admin</Username>
+        <Password>root</Password>
+    </User>
+    <User type="employee">
+        <Username>Vlad</Username>
+        <Password>1234</Password>
+    </User>
+
+    <User type="employee">
+        <Username>Tudor</Username>
+        <Password>12345</Password>
+    </User>
+
+    <User type="employee">
+        <Username>Raul</Username>
+        <Password>12345</Password>
+    </User>
+
+
+    <User type="admin">
+        <Username>owner</Username>
+        <Password>root</Password>
+    </User>
+
+    <User type="employee">
+        <Username>Kinga</Username>
+        <Password>Tora</Password>
+    </User>
+<User type="employee">
+    <Username>vlady</Username>
+    <Password>UpdatedPassword</Password>
+  </User>
+</Personnel>

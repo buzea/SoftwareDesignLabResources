@@ -1,4 +1,4 @@
-package sample;
+package ro.utcluj;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
