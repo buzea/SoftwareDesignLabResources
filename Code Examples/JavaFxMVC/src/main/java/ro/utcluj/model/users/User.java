@@ -15,22 +15,20 @@ public abstract class User {
 
 	private final Type type;
 
-
 	User(String username, String password, Type type) {
 		super();
 		this.username = username;
 		this.password = password;
 
 		this.type = type;
-
 	}
 
 	public static User login(String username, String password) {
 		try {
-			File fXmlFile = new File("Users.xml");
+			File xmlFile = new File(User.class.getClassLoader().getResource("Users.xml").getFile());
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXmlFile);
+			Document doc = dBuilder.parse(xmlFile);
 			doc.getDocumentElement().normalize();
 			NodeList nList = doc.getElementsByTagName("User");
 
@@ -47,14 +45,14 @@ public abstract class User {
 					String nodePassword = eElement.getElementsByTagName("Password").item(0).getTextContent();
 
 					if (username.equals(nodeUsername) && password.equals(nodePassword)) {
-						if (type.equalsIgnoreCase("admin"))
+						if (type.equalsIgnoreCase("admin")) {
 							return new Admin(username, password);
-						else
+						} else {
 							return new Employee(nodeUsername, nodePassword);
+						}
 					}
 				}
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
