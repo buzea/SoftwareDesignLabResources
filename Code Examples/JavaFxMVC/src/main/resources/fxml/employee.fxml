@@ -7,44 +7,56 @@
            minWidth="-Infinity" prefHeight="403.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.utcluj.controller.EmployeeController">
     <items>
-        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="436.0">
+        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0">
             <children>
-                <TableView fx:id="table" prefHeight="397.0" prefWidth="346.0" AnchorPane.bottomAnchor="1.0"
-                           AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="1.0">
-                    <columns>
-                        <TableColumn prefWidth="75.0" text="Title">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="title"/>
-                            </cellValueFactory>
-                        </TableColumn>
-                        <TableColumn prefWidth="75.0" text="Author">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="author"/>
-                            </cellValueFactory>
-                        </TableColumn>
-                        <TableColumn prefWidth="75.0" text="Genre">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="genre"/>
-                            </cellValueFactory>
-                        </TableColumn>
-                        <TableColumn prefWidth="75.0" text="Year">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="year"/>
-                            </cellValueFactory>
-                        </TableColumn>
-                        <TableColumn prefWidth="75.0" text="Price">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="price"/>
-                            </cellValueFactory>
-                        </TableColumn>
-                        <TableColumn prefWidth="75.0" text="Stock">
-                            <cellValueFactory>
-                                <PropertyValueFactory property="quantity"/>
-                            </cellValueFactory>
-                        </TableColumn>
+                <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="1.0"
+                            AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+                    <content>
+                        <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0"
+                                    minWidth="0.0">
+                            <children>
+                                <TableView fx:id="table" editable="true" maxHeight="1.7976931348623157E308"
+                                           maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="1.0"
+                                           AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-1.0"
+                                           AnchorPane.topAnchor="1.0">
+                                    <columns>
+                                        <TableColumn prefWidth="75.0" text="Title">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="title"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
+                                        <TableColumn prefWidth="75.0" text="Author">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="author"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
+                                        <TableColumn prefWidth="75.0" text="Genre">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="genre"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
+                                        <TableColumn prefWidth="75.0" text="Year">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="year"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
+                                        <TableColumn prefWidth="75.0" text="Price">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="price"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
+                                        <TableColumn prefWidth="200.0" text="Stock">
+                                            <cellValueFactory>
+                                                <PropertyValueFactory property="quantity"/>
+                                            </cellValueFactory>
+                                        </TableColumn>
 
-                    </columns>
-                </TableView>
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </ScrollPane>
             </children>
         </AnchorPane>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="398.0" prefWidth="226.0">

@@ -37,6 +37,7 @@ public class LoginController implements Initializable {
 					Alert alert = new Alert(Alert.AlertType.ERROR);
 					alert.setTitle("Error");
 					alert.setHeaderText("Admin Page not implemented yet!");
+					alert.showAndWait();
 				} else {
 					changeScene();
 				}
@@ -44,6 +45,7 @@ public class LoginController implements Initializable {
 				Alert alert = new Alert(Alert.AlertType.ERROR);
 				alert.setTitle("Invalid Login Credentials");
 				alert.setHeaderText("Invalid Login Credentials");
+				alert.showAndWait();
 			}
 		});
 	}

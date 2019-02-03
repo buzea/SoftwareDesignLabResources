@@ -25,7 +25,7 @@ public abstract class User {
 
 	public static User login(String username, String password) {
 		try {
-			File xmlFile = new File(User.class.getClassLoader().getResource("Users.xml").getFile());
+			File xmlFile = new File("src/main/resources/Users.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(xmlFile);
