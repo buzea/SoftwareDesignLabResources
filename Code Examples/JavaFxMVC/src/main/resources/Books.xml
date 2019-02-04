@@ -13,7 +13,7 @@
         <author>J. R. R. Tolkien</author>
         <year>1937</year>
         <genre>Fiction</genre>
-        <quantity>198</quantity>
+        <quantity>194</quantity>
         <price>45.98</price>
     </Book>
 
@@ -47,7 +47,7 @@
         <author>M. Sadoveanu</author>
         <year>1936</year>
         <genre>History</genre>
-        <quantity>18</quantity>
+        <quantity>17</quantity>
         <price>3.33</price>
     </Book>
 <Book>
@@ -55,7 +55,7 @@
     <author>Uncle Bob</author>
     <year>2018</year>
     <genre>Coding</genre>
-    <quantity>500</quantity>
+    <quantity>485</quantity>
     <price>20.0</price>
   </Book>
 </library>

@@ -4,9 +4,6 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import ro.utcluj.model.report.Report;
-import ro.utcluj.model.report.ReportFactory;
-import ro.utcluj.model.report.ReportFactory.ReportType;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -19,7 +16,6 @@ import java.awt.*;
 import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Objects;
 
 public class Admin extends User {
 
@@ -236,13 +232,6 @@ public class Admin extends User {
         }
 
         return false;
-    }
-
-    public boolean generateReport(int type) {
-        ReportType reportType = type == 1 ? ReportType.XML : ReportType.TEXT;
-        Report report = ReportFactory.createReport(reportType);
-
-        return Objects.requireNonNull(report).generateReport();
     }
 
     public boolean openReport(int type) {
