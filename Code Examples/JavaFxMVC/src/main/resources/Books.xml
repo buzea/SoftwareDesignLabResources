@@ -58,4 +58,12 @@
     <quantity>485</quantity>
     <price>20.0</price>
   </Book>
+<Book>
+    <title>JavaFx</title>
+    <author>Vlad</author>
+    <year>2019</year>
+    <genre>SF</genre>
+    <quantity>33</quantity>
+    <price>0.01</price>
+  </Book>
 </library>
