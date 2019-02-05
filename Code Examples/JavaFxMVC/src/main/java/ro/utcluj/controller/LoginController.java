@@ -56,7 +56,7 @@ public class LoginController implements Initializable {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/employee.fxml"));
 			Parent root = loader.load();
 			window.setTitle("Library");
-			window.setScene(new Scene(root, 300, 275));
+			window.setScene(new Scene(root));
 		} catch (IOException e) {
 			Alert alert = new Alert(Alert.AlertType.ERROR);
 			alert.setTitle("Error loading library");

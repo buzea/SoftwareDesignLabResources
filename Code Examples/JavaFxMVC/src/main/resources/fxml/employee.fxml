@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Spinner?>
@@ -14,7 +15,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.utcluj.controller.EmployeeController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="353.0" prefHeight="353.0" prefWidth="755.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.utcluj.controller.EmployeeController">
     <children>
         <HBox prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="10.0">
             <children>
@@ -85,19 +86,40 @@
                                 <RowConstraints />
                             </rowConstraints>
                             <children>
-                                <Button id="listAllBooks" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="List All Boks" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER" />
-                                <TextField disable="true" prefHeight="25.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                <Button id="listAllBooks" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="List All Boks" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
+                                <TextField disable="true" prefHeight="25.0" prefWidth="149.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></TextField>
                                 <Label prefHeight="17.0" prefWidth="33.0" text="Input:" GridPane.rowIndex="1" />
-                                <Button fx:id="searchByTitle" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Search By Title" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                                <Button fx:id="searchByTitle" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Search By Title" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
                                 <Button fx:id="searchByAuthor" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Search By Author" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
-                                <Button fx:id="searchByYear" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Search By Year" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                                <Button fx:id="searchByYear" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Search By Year" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
                                 <Spinner fx:id="spinner" prefHeight="25.0" prefWidth="177.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                                     <valueFactory>
                                         <SpinnerValueFactory.IntegerSpinnerValueFactory max="10" min="1" />
                                     </valueFactory>
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin>
                                 </Spinner>
-                                <Button fx:id="sell" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Sell" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER" />
-                                <Button fx:id="create" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Create Book" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES" />
+                                <Button fx:id="sell" defaultButton="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Sell" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
+                                <Button fx:id="create" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="25.0" prefWidth="180.0" text="Create Book" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="7" GridPane.valignment="CENTER" GridPane.vgrow="SOMETIMES">
+                           <GridPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </GridPane.margin></Button>
                             </children>
                         </GridPane>
                     </children>
