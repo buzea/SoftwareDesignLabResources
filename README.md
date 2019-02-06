@@ -6,8 +6,6 @@ In case of any error, please report it within two weeks
 
 ##	Useful Resources:
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
-*	[Martin Fowler - Patterns of Enterprise Application Architecture](http://training.hasintech.com/download/attachments/1802696/Patterns%20of%20Enterprise%20Application%20Architecture%20-%20Martin%20Fowler.pdf?version=1&modificationDate=1464702352696&api=v2) - Read Chapters 10 and 9 first of all
-*	[Resources by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/SoftwareDesign2018/blob/master/README.md)
 *	[Examples  by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
 *	[The Outdated projects I did when I was a student](https://github.com/buzea/Software-Design "Mambo Jambo Jibberish")
 *	[UML Recap](https://drive.google.com/file/d/1prsQZhEYxRUixXnMkxZsiUDUAdJ8-9ij/view?usp=sharing)
