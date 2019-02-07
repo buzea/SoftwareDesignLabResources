@@ -11,7 +11,6 @@
  ************************************************************************/
 package ro.utcn.sd.dao.impl.hibernate;
 
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

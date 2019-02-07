@@ -11,8 +11,7 @@
  ************************************************************************/
 package ro.utcn.sd.dao;
 
-public interface Dao<T>
-{
+public interface Dao<T> {
     T find(long id);
 
     void delete(T objectToDelete);

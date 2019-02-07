@@ -19,7 +19,6 @@ import ro.utcn.sd.entities.Item;
 import ro.utcn.sd.output.CartDetailsDTO;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 import static ro.utcn.sd.entities.builders.ItemBuilder.createItemBuilder;
 
