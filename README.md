@@ -19,18 +19,11 @@ In case of any error, please report it within two weeks
 *	[Thymeleaf Tutorial](https://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html)
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 
-
+-->
 ## Resources for Assignment 1:
-*	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)
-*	[How To create a multi module maven project](https://www.youtube.com/watch?v=obHce3gvgec) - Use this as example to create your 3-Tier project structure, but adapt it to our needs: No web app and name modules accordingly:
-	<ol>
-			<li> presentation is ok, could be renamed to "ui" </li>
-			<li> service <=> "business" </li>
-			<li> integration <=> "dao" </li>
-	</ol>
-	
+*	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)	
 
-
+<!--
 ## Resources for Assignment 2:
 *	[Structure for storing a tournament](https://docs.google.com/presentation/d/1k0A6Y5MV830cZgmHlqgqblFgtVWtaZNa3e6OCNBlkeY/edit?usp=sharing)
 *	[Hibernate Tutorial](https://www.journaldev.com/3793/hibernate-tutorial) Mandatory Chapters: 1,2,3,4,5,8.
