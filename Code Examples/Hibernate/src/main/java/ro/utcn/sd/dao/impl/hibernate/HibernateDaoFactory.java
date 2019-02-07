@@ -14,4 +14,5 @@ public class HibernateDaoFactory extends DaoFactory {
 	public ItemsDao getItemsDao() {
 		return new HibernateItemDao();
 	}
+
 }

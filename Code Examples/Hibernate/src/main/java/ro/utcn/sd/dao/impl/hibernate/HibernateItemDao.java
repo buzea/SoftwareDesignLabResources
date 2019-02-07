@@ -66,19 +66,24 @@ public class HibernateItemDao implements ItemsDao {
         currentSession.close();
     }
 
+    // I know this is horrible to look at at first. I just wanted to show you some Criteria API
+    // Use HSQL instead
     @Override
-    @Transactional(readOnly = true)
     public Set<Item> findByCartId(long cartId) {
         Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
         CriteriaBuilder builder = currentSession.getCriteriaBuilder();
+
         CriteriaQuery<Item> criteriaQuery = builder.createQuery(Item.class);
         Root<Cart> root = criteriaQuery.from(Cart.class);
+
         criteriaQuery.where(builder.equal(root.get("id"), cartId));
         CriteriaQuery<Item> itemCriteriaQuery = criteriaQuery.select(root.join("items"));
         List<Item> resultList = currentSession.createQuery(itemCriteriaQuery).getResultList();
+
         transaction.commit();
         currentSession.close();
+
         return new HashSet<>(resultList);
     }
 }

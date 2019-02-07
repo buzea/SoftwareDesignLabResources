@@ -54,7 +54,7 @@ public class HibernateCartDao implements CartDao {
     public void insert(Cart objectToCreate) {
         Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
-        currentSession.persist(objectToCreate);
+        currentSession.merge(objectToCreate);
         transaction.commit();
         currentSession.close();
     }

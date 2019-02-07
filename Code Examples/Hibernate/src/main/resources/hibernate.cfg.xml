@@ -13,7 +13,7 @@
         <!-- JDBC connection pool settings ... using built-in test pool -->
         <property name="connection.pool_size">10</property>
         <property name="hibernate.current_session_context_class">thread</property>
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create-drop</property>
         <property name="hibernate.show_sql">true</property>
 
         <mapping class="ro.utcn.sd.entities.Cart"/>
