@@ -40,7 +40,7 @@ public class Main {
         CartDetailsDTO execute = transactionScript.execute();
 
         if (execute != null) {
-            System.out.println("Name: " + execute.getName());
+            System.out.println("Name : " + execute.getName());
             System.out.println("Total:" + execute.getTotal());
             System.out.println("Items:");
             execute.getItems().forEach(System.out::println);
