@@ -13,6 +13,7 @@ package ro.utcn.sd.business;
 
 import ro.utcn.sd.dao.CartDao;
 import ro.utcn.sd.dao.DaoFactory;
+import ro.utcn.sd.dao.ItemsDao;
 import ro.utcn.sd.entities.Cart;
 import ro.utcn.sd.entities.Item;
 import ro.utcn.sd.output.CartDetailsDTO;
@@ -33,11 +34,13 @@ public class ShowCartDetails {
     public CartDetailsDTO execute() {
         CartDao cartDao = daoFactory.getCartDao();
         Cart cart = cartDao.find(cartId);
-        Set<Item> items = daoFactory.getItemsDao().findByCartId(cartId);
+        ItemsDao itemsDao = daoFactory.getItemsDao();
+        Set<Item> items = itemsDao.findByCartId(cartId);
 
         double total = 0;
 
-        CartDetailsDTO result = new CartDetailsDTO(cart.getName());
+        String name = cart.getName();
+        CartDetailsDTO result = new CartDetailsDTO(name);
         for (Item item : items) {
             result.getItems().add(createItemDTO(item));
             total += item.getPrice();

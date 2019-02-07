@@ -46,7 +46,18 @@ public class ShowCartDetailsTest {
         cart.add(item2);
         CartDao mockCartDao = mockCartDao(asList(cart));
 
-        subject = new ShowCartDetails(new DaoFactory() {
+        DaoFactory mockFactory = mockDaoFactory(mockItemsDao, mockCartDao);
+        subject = new ShowCartDetails(mockFactory, cartId);
+
+        // when:
+        CartDetailsDTO result = subject.execute();
+
+        // then:
+        Assert.assertEquals(11, result.getTotal(), 0.0001);
+    }
+
+    private DaoFactory mockDaoFactory(ItemsDao mockItemsDao, CartDao mockCartDao) {
+        return new DaoFactory() {
             @Override
             public CartDao getCartDao() {
                 return mockCartDao;
@@ -56,13 +67,7 @@ public class ShowCartDetailsTest {
             public ItemsDao getItemsDao() {
                 return mockItemsDao;
             }
-        }, cartId);
-
-        // when:
-        CartDetailsDTO result = subject.execute();
-
-        // then:
-        Assert.assertEquals(11, result.getTotal(), 0.0001);
+        };
     }
 
     private ItemsDao mockItemsDao(List<Item> items) {
@@ -106,7 +111,10 @@ public class ShowCartDetailsTest {
         return new CartDao() {
             @Override
             public Cart find(long id) {
-                return data.stream().filter(it -> it.getId() == id).findAny().get();
+                return data.stream()
+                           .filter(it -> it.getId() == id)
+                           .findAny()
+                           .get();
             }
 
             @Override
