@@ -5,15 +5,18 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.username">admin</property>
-        <property name="hibernate.connection.password">admin</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_example</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/a1_example</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MariaDB53Dialect</property>
+        <property name="spring.jpa.hibernate.naming-strategy">org.hibernate.cfg.ImprovedNamingStrategy</property>
+        <!-- JDBC connection pool settings ... using built-in test pool -->
+        <property name="connection.pool_size">10</property>
         <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
         <property name="hibernate.show_sql">true</property>
-        
-        <mapping class="ro.utcn.sd.model.Cart"/>
-        <mapping class="ro.utcn.sd.model.Items"/>
+
+        <mapping class="ro.utcn.sd.entities.Cart"/>
+        <mapping class="ro.utcn.sd.entities.Item"/>
     </session-factory>
 </hibernate-configuration>

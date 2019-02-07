@@ -9,15 +9,13 @@
  * not be copied, modified, distributed, or otherwise disseminated, in
  * whole or part, without the express written permission of Ullink.
  ************************************************************************/
-package ro.utcn.sd.dao;
+package ro.utcn.sd.output;
 
-public interface Dao<T>
-{
-    T find(long id);
+import lombok.Data;
 
-    void delete(T objectToDelete);
+@Data
+public class ItemDTO {
 
-    void update(T objectToUpdate);
-
-    void insert(T objectToCreate);
+    private final String name;
+    private final double price;
 }

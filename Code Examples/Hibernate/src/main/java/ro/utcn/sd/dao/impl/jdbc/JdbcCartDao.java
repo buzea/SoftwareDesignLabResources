@@ -1,7 +1,7 @@
 package ro.utcn.sd.dao.impl.jdbc;
 
 import ro.utcn.sd.dao.CartDao;
-import ro.utcn.sd.model.Cart;
+import ro.utcn.sd.entities.Cart;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class JdbcCartDao  implements CartDao{
@@ -23,15 +23,5 @@ public class JdbcCartDao  implements CartDao{
 	@Override
 	public void insert(Cart objectToCreate) {
 		throw new NotImplementedException();
-	}
-
-	@Override
-	public void deleteById(long id) {
-		throw new NotImplementedException();
-	}
-
-	@Override
-	public void closeConnection() {
-
 	}
 }

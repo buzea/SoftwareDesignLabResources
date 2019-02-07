@@ -9,71 +9,53 @@
  * not be copied, modified, distributed, or otherwise disseminated, in
  * whole or part, without the express written permission of Ullink.
  ************************************************************************/
-package ro.utcn.sd.dao.imp.hibernate;
+package ro.utcn.sd.dao.impl.hibernate;
 
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import ro.utcn.sd.dao.ItemsDao;
-import ro.utcn.sd.dao.ItemsDao;
-import ro.utcn.sd.model.Items;
-import ro.utcn.sd.model.Items;
-import ro.utcn.sd.util.HibernateUtil;
+import ro.utcn.sd.dao.CartDao;
+import ro.utcn.sd.dao.impl.hibernate.util.HibernateUtil;
+import ro.utcn.sd.entities.Cart;
 
-public class HibernateItemsDao implements ItemsDao {
+public class HibernateCartDao implements CartDao {
     private SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 
     @Override
-    public Items find(long id)
-    {
-        Session currentSession = sessionFactory.getCurrentSession();
+    public Cart find(long id) {
+        Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
-        Items items = (Items) currentSession.get(Items.class, id);
+        Cart cart = currentSession.get(Cart.class, id);
         transaction.commit();
-        return items;
+        currentSession.close();
+        return cart;
     }
 
     @Override
-    public void delete(Items objectToDelete)
-    {
-        Session currentSession = sessionFactory.getCurrentSession();
+    public void delete(Cart objectToDelete) {
+        Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
         currentSession.delete(objectToDelete);
         transaction.commit();
+        currentSession.close();
     }
 
     @Override
-    public void update(Items objectToUpdate)
-    {
-        Session currentSession = sessionFactory.getCurrentSession();
+    public void update(Cart objectToUpdate) {
+        Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
         currentSession.update(objectToUpdate);
         transaction.commit();
+        currentSession.close();
     }
 
     @Override
-    public void insert(Items objectToCreate)
-    {
-        Session currentSession = sessionFactory.getCurrentSession();
+    public void insert(Cart objectToCreate) {
+        Session currentSession = sessionFactory.openSession();
         Transaction transaction = currentSession.beginTransaction();
         currentSession.persist(objectToCreate);
         transaction.commit();
-    }
-
-    @Override
-    public void deleteById(long id)
-    {
-        Session currentSession = sessionFactory.getCurrentSession();
-        Transaction transaction = currentSession.beginTransaction();
-        Query hqlQuery = currentSession.createQuery("delete from Items where id= :idParameter");
-        hqlQuery.setLong("idParameter",id);
-        hqlQuery.executeUpdate();
-        transaction.commit();
-    }
-
-    @Override
-    public void closeConnection() {
-        sessionFactory.close();
+        currentSession.close();
     }
 }

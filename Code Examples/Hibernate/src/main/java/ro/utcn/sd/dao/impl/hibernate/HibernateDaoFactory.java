@@ -1,10 +1,8 @@
-package ro.utcn.sd.dao.factory.impl;
+package ro.utcn.sd.dao.impl.hibernate;
 
 import ro.utcn.sd.dao.CartDao;
 import ro.utcn.sd.dao.ItemsDao;
-import ro.utcn.sd.dao.factory.DaoFactory;
-import ro.utcn.sd.dao.imp.hibernate.HibernateCartDao;
-import ro.utcn.sd.dao.imp.hibernate.HibernateItemsDao;
+import ro.utcn.sd.dao.DaoFactory;
 
 public class HibernateDaoFactory extends DaoFactory {
 	@Override
@@ -14,6 +12,6 @@ public class HibernateDaoFactory extends DaoFactory {
 
 	@Override
 	public ItemsDao getItemsDao() {
-		return new HibernateItemsDao();
+		return new HibernateItemDao();
 	}
 }

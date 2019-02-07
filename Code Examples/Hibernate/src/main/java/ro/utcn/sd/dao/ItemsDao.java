@@ -1,20 +1,22 @@
 package ro.utcn.sd.dao;
 
-import ro.utcn.sd.model.Cart;
-import ro.utcn.sd.model.Items;
+import ro.utcn.sd.entities.Item;
 
-public interface ItemsDao extends Dao<Items> {
+import java.util.Set;
 
-	@Override
-	Items find(long id);
+public interface ItemsDao extends Dao<Item> {
 
-	@Override
-	void delete(Items objectToDelete);
+    @Override
+    Item find(long id);
 
-	@Override
-	void update(Items objectToUpdate);
+    @Override
+    void delete(Item objectToDelete);
 
-	@Override
-	void insert(Items objectToCreate);
+    @Override
+    void update(Item objectToUpdate);
 
+    @Override
+    void insert(Item objectToCreate);
+
+    Set<Item> findByCartId(long cartId);
 }

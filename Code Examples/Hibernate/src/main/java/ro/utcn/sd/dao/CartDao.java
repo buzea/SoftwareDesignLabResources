@@ -1,6 +1,6 @@
 package ro.utcn.sd.dao;
 
-import ro.utcn.sd.model.Cart;
+import ro.utcn.sd.entities.Cart;
 
 public interface CartDao extends Dao<Cart> {
 
