@@ -6,7 +6,7 @@ In case of any error, please report it within two weeks
 
 ##	Useful Resources:
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
-*	[Examples  by Alex Cosma](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
+*	[Examples  other teachers](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
 *	[The Outdated projects I did when I was a student](https://github.com/buzea/Software-Design "Mambo Jambo Jibberish")
 *	[UML Recap](https://drive.google.com/file/d/1prsQZhEYxRUixXnMkxZsiUDUAdJ8-9ij/view?usp=sharing)
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
