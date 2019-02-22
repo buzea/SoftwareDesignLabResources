@@ -4,6 +4,8 @@ The contents of this repository will be updated on the go with the assignments a
 ###	[Attendance And Grades]
 In case of any error, please report it within two weeks
 
+### [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
+
 ##	Useful Resources:
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
 *	[Examples from other teachers](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
