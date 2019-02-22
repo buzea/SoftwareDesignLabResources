@@ -24,8 +24,8 @@ In case of any error, please report it within two weeks
 -->
 ## Schedule
 | Week Nb. 	| What happens during the lab                                                                                        				| What you need to present                           	|
-|----------	|--------------------------------------------------------------------------------------------------------------------				|----------------------------------------------------	|
-| 1        	| Get to know each other<br/> Lab Overview-Slides/ Set common ground<br/> How to use git classroom<br/>  Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
+|----------	|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------	|
+| 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> How to use git classroom<br/>  Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
 | 2        	| Assignment 1 Specification<br/> Abstract Factory<br/> Example of Project Specification<br/>                                    				| Final Project subject.                             	|
 | 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Testing                                                        				|                                                    	|
 | 4        	| Grading of Deliverable 1<br/> Assign Design Pattern for Deliverable 2                                                 				| Project Deliverable 1: Project Specification       	|
