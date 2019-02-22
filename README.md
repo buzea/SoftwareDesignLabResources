@@ -22,6 +22,25 @@ In case of any error, please report it within two weeks
 *	[How to write a JUnit Test](https://www.tutorialspoint.com/junit/junit_writing_tests.htm)
 
 -->
+## Schedule
+| Week Nb. 	| What happens during the lab                                                                                        	| What you need to present                           	|
+|----------	|--------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------	|
+| 1        	| Get to know each other. Lab Overview-Slides. Set common ground. How to use git classroom.  Short UML Revision      	| Answer Questionnaire. Choose project subject.      	|
+| 2        	| Assignment 1 Specification. Abstract Factory. Example of Project Specification.                                    	| Final Project subject.                             	|
+| 3        	| JDBC + Hibernate.  TableModule + Transaction Script Testing                                                        	|                                                    	|
+| 4        	| Grading of Deliverable 1. Assign Design Pattern for Deliverable 2.                                                 	| Project Deliverable 1: Project Specification       	|
+| 5        	| Grading of Assignment 1. Assignment 2 Specification                                                                	| Assignment 1: *Server*  Data Access + Business     	|
+| 6        	| Presentation of MVC. Discuss Final Project  Analysis and Design Document. Each student presents his design pattern 	| Project Deliverable 2: Design Pattern Presentation 	|
+| 7        	| Each student presents his design pattern. Spring boot walk-through: Structure and concepts.                        	| Project Deliverable 2: Design Pattern Presentation 	|
+| 8        	| Grading of Assignment 2. Specification of Assignment 3. Sockets Example JSON Command                               	| Assignment 2: *Client* MVC                         	|
+| 9        	| Grading of Deliverable 3 Spring Boot Thymeleaf + Security                                                          	| Project Deliverable 3: Project Analysis and Design 	|
+| 10       	| Spring Boot Questions                                                                                              	|                                                    	|
+| 11       	| Grading                                                                                                            	| Assignment 3: Client-Server sockets                	|
+| 12       	| Grading                                                                                                            	| Final Project                                      	|
+| 13       	| Grading                                                                                                            	| Final Project                                      	|
+| 14       	| Grading                                                                                                            	| Late Assignments                                   	|
+
+
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)	
 
