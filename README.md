@@ -10,6 +10,7 @@ In case of any error, please report it within two weeks
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
 *	[Examples from other teachers](https://github.com/UTCN-SoftwareDesignLab/LabCodeExamples)
 *	[The Outdated projects I did when I was a student](https://github.com/buzea/Software-Design "Mambo Jambo Jibberish")
+*	[Agile Vs. RUP](https://www.quora.com/What-are-key-differences-between-agile-and-rup-methodologies)
 *	[UML Recap](https://drive.google.com/file/d/1prsQZhEYxRUixXnMkxZsiUDUAdJ8-9ij/view?usp=sharing)
 *	[Testing Techniques](https://drive.google.com/open?id=1CBZvPDo31fNXHSWTjsn9rCQwPQHiN8ct)
 *	[JavaFX Tutorial](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBzfXLWLSYVy8EbTdpGbUIG)
