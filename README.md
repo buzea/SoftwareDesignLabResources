@@ -2,9 +2,8 @@
 
 The contents of this repository will be updated on the go with the assignments and useful resources.
 ###	[Attendance And Grades](https://docs.google.com/spreadsheets/d/1CAo19VhQJ73O2Kpdc98LBW0e9QtG8GMMs29-Z8P3VM4/edit?usp=sharing)
-In case of any error, please report it within two weeks
 
-### [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
+<!-- ### [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3) -->
 
 ### [Slack Workspace](https://utcn-sd-30432.slack.com/messages)
 
@@ -29,7 +28,7 @@ In case of any error, please report it within two weeks
 | Week Nb. 	| What happens during the lab                                                                                        				| What you need to present                           	|
 |----------	|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------	|
 | 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
-| 2        	| How to use git classroom<br/> Assignment 1 Specification<br/> Abstract Factory<br/> Example of Project Specification<br/>                                    				| Final Project subject.                             	|
+| 2        	| Example of Project Specification<br/> Assignment 1 Specification <br/> How to use git classroom<br/>Abstract Factory<br/>                                    				| Final Project subject.                             	|
 | 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Testing                                                        				|                                                    	|
 | 4        	| Grading of Deliverable 1<br/> Assign Design Pattern for Deliverable 2                                                 				| Project Deliverable 1: Project Specification       	|
 | 5        	| Grading of Assignment 1<br/> Assignment 2 Specification                                                                				| Assignment 1: *Server*  Data Access + Business     	|
