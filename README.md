@@ -1,12 +1,12 @@
 # Laboratory Resources for Software Design
 
 The contents of this repository will be updated on the go with the assignments and useful resources.
-###	[Attendance And Grades]
+###	[Attendance And Grades](https://docs.google.com/spreadsheets/d/1CAo19VhQJ73O2Kpdc98LBW0e9QtG8GMMs29-Z8P3VM4/edit?usp=sharing)
 In case of any error, please report it within two weeks
 
-## [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
+### [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
 
-## [Slack Workspace](https://utcn-sd-30432.slack.com/messages)
+### [Slack Workspace](https://utcn-sd-30432.slack.com/messages)
 
 ##	Useful Resources:
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
