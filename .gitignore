@@ -5,11 +5,12 @@
 /bin
 /build
 /fft
-/out
-/out
+out/
 target/
 .settings
 .classpath
 .project
 .idea
 *.iml
+*.class
+.gradle/

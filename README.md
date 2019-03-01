@@ -4,7 +4,9 @@ The contents of this repository will be updated on the go with the assignments a
 ###	[Attendance And Grades]
 In case of any error, please report it within two weeks
 
-### [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
+## [First Laboratory Questionnaire](https://goo.gl/forms/JiHJC4dPuT0VNUrJ3)
+
+## [Slack Workspace](https://utcn-sd-30432.slack.com/messages)
 
 ##	Useful Resources:
 *	[Lab Overview](https://docs.google.com/presentation/d/1oJOEvyqTztCIUlOVEyByOjyuji_TTT4jVIfeFVMfXFg/edit?usp=sharing)
@@ -26,14 +28,14 @@ In case of any error, please report it within two weeks
 ## Schedule
 | Week Nb. 	| What happens during the lab                                                                                        				| What you need to present                           	|
 |----------	|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------	|
-| 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> How to use git classroom<br/>  Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
-| 2        	| Assignment 1 Specification<br/> Abstract Factory<br/> Example of Project Specification<br/>                                    				| Final Project subject.                             	|
+| 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
+| 2        	| How to use git classroom<br/> Assignment 1 Specification<br/> Abstract Factory<br/> Example of Project Specification<br/>                                    				| Final Project subject.                             	|
 | 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Testing                                                        				|                                                    	|
 | 4        	| Grading of Deliverable 1<br/> Assign Design Pattern for Deliverable 2                                                 				| Project Deliverable 1: Project Specification       	|
 | 5        	| Grading of Assignment 1<br/> Assignment 2 Specification                                                                				| Assignment 1: *Server*  Data Access + Business     	|
 | 6        	| Presentation of MVC<br/> Observable<br/> Discuss Final Project Analysis and Design Document<br/> Each student presents his design pattern 	| Project Deliverable 2: Design Pattern Presentation 	|
 | 7        	| Each student presents his design pattern<br/> Spring boot walk-through: Structure and concepts                        				| Project Deliverable 2: Design Pattern Presentation 	|
-| 8        	| Grading of Assignment 2<br/> Specification of Assignment 3. Sockets<br/> JSON<br/> Command Factory<br/>                               			| Assignment 2: *Client* MVC                         	|
+| 8        	| Grading of Assignment 2<br/> Specification of Assignment 3<br/> Sockets<br/> JSON<br/> Command Factory<br/>                               			| Assignment 2: *Client* MVC                         	|
 | 9        	| Grading of Deliverable 3<br/> Spring Boot Thymeleaf + Security                                                          				| Project Deliverable 3: Project Analysis and Design 	|
 | 10       	| Spring Boot Questions                                                                                              				|                                                    	|
 | 11       	| Grading                                                                                                            				| Assignment 3: Client-Server sockets                	|
@@ -41,6 +43,8 @@ In case of any error, please report it within two weeks
 | 13       	| Grading                                                                                                            				| Final Project                                      	|
 | 14       	| Grading                                                                                                            				| Late Assignments                                   	|
 
+
+## [Enroll for assignments](https://classroom.github.com/a/2Ru1s1YY)
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)	
