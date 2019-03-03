@@ -43,7 +43,7 @@ The contents of this repository will be updated on the go with the assignments a
 | 14       	| Grading                                                                                                            				| Late Assignments                                   	|
 
 
-## [Enroll for assignments](https://classroom.github.com/a/2Ru1s1YY)
+## [Enroll for assignments](https://classroom.github.com/a/xyblG7Ur)
 
 ## Resources for Assignment 1:
 *	[Domain Logic and Data Source Patterns - Slides](https://docs.google.com/presentation/d/1iOOMN-Tr3VDAUYMSLobgvn2FBubhfRrIuvV9OtxtZcU/edit?usp=sharing)	
