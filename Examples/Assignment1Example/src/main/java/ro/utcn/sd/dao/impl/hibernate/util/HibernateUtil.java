@@ -8,13 +8,14 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 public class HibernateUtil {
 
-    private static final String                  CONFIG_FILE_NAME = "hibernate.cfg.xml";
     private static       SessionFactory          sessionFactory   = buildSessionFactory();
     private static       StandardServiceRegistry registry;
 
     private static SessionFactory buildSessionFactory() {
         try {
-            // Create registry
+            // Create registry.
+            // Note: StandardServiceRegistryBuilder uses hibernate.cfg.xml as default hibernate config file.
+            // No need to pass extra path param
             registry = new StandardServiceRegistryBuilder().configure().build();
             // Create MetadataSources
             MetadataSources sources = new MetadataSources(registry);
