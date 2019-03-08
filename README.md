@@ -25,22 +25,22 @@ The contents of this repository will be updated on the go with the assignments a
 
 -->
 ## Schedule
-| Week Nb. 	| What happens during the lab                                                                                        				| What you need to present                           	|
-|----------	|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------	|
-| 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> Short UML Revision      				| Answer Questionnaire. Choose project subject.      	|
-| 2        	| Example of Project Specification<br/> Assignment 1 Specification <br/> How to use git classroom<br/>Abstract Factory<br/>                                    				| Final Project subject.                             	|
-| 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Testing                                                        				|                                                    	|
-| 4        	| Grading of Deliverable 1<br/> Assign Design Pattern for Deliverable 2                                                 				| Project Deliverable 1: Project Specification       	|
-| 5        	| Grading of Assignment 1<br/> Assignment 2 Specification                                                                				| Assignment 1: *Server*  Data Access + Business     	|
+| Week Nb. 	| What happens during the lab                                                                                        							| What you need to present                           	|
+|----------	|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------	|
+| 1        	| Get to know each other<br/> Lab Overview-Slides<br/> Set common ground<br/> Short UML Revision      											| Answer Questionnaire. Choose project subject.      	|
+| 2        	| Example of Project Specification<br/> Assignment 1 Specification <br/> How to use git classroom<br/>                                   		| Final Project subject.                             	|
+| 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Abstract Factory<br/> Testing                               						|                                                    	|
+| 4        	| Grading of Deliverable 1<br/> Assign Design Pattern for Deliverable 2                                                 						| Project Deliverable 1: Project Specification       	|
+| 5        	| Grading of Assignment 1<br/> Assignment 2 Specification                                                                						| Assignment 1: *Server*  Data Access + Business     	|
 | 6        	| Presentation of MVC<br/> Observable<br/> Discuss Final Project Analysis and Design Document<br/> Each student presents his design pattern 	| Project Deliverable 2: Design Pattern Presentation 	|
-| 7        	| Each student presents his design pattern<br/> Spring boot walk-through: Structure and concepts                        				| Project Deliverable 2: Design Pattern Presentation 	|
-| 8        	| Grading of Assignment 2<br/> Specification of Assignment 3<br/> Sockets<br/> JSON<br/> Command Factory<br/>                               			| Assignment 2: *Client* MVC                         	|
-| 9        	| Grading of Deliverable 3<br/> Spring Boot Thymeleaf + Security                                                          				| Project Deliverable 3: Project Analysis and Design 	|
-| 10       	| Spring Boot Questions                                                                                              				|                                                    	|
-| 11       	| Grading                                                                                                            				| Assignment 3: Client-Server sockets                	|
-| 12       	| Grading                                                                                                            				| Final Project                                      	|
-| 13       	| Grading                                                                                                            				| Final Project                                      	|
-| 14       	| Grading                                                                                                            				| Late Assignments                                   	|
+| 7        	| Each student presents his design pattern<br/> Spring boot walk-through: Structure and concepts                        						| Project Deliverable 2: Design Pattern Presentation 	|
+| 8        	| Grading of Assignment 2<br/> Specification of Assignment 3<br/> Sockets<br/> JSON<br/> Command Factory<br/>                               	| Assignment 2: *Client* MVC                         	|
+| 9        	| Grading of Deliverable 3<br/> Spring Boot Thymeleaf + Security                                                          						| Project Deliverable 3: Project Analysis and Design 	|
+| 10       	| Spring Boot Questions                                                                                              							|                                                    	|
+| 11       	| Grading                                                                                                            							| Assignment 3: Client-Server sockets                	|
+| 12       	| Grading                                                                                                            							| Final Project                                      	|
+| 13       	| Grading                                                                                                            							| Final Project                                      	|
+| 14       	| Grading                                                                                                            							| Late Assignments                                   	|
 
 
 ## [Enroll for assignments](https://classroom.github.com/a/xyblG7Ur)
