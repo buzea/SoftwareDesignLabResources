@@ -18,6 +18,7 @@ The contents of this repository will be updated on the go with the assignments a
 *	[Automatic Id Generation with Hibernate 5 and MySQL](https://vladmihalcea.com/why-should-not-use-the-auto-jpa-generationtype-with-mysql-and-hibernate/)
 *	[How to write a many-to-many with Hibernate](https://vladmihalcea.com/the-best-way-to-use-the-manytomany-annotation-with-jpa-and-hibernate/)
 *	[UI Architectures](https://www.martinfowler.com/eaaDev/uiArchs.html) - an old fashioned view.
+*	[MVC, MVP, MVVM](https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad)
 <!--*	[How to create your github repository](https://buzea-vlad.tinytake.com/sf/MjQzNDE2MF83MzYzMDM4) 
 *	[Spring Boot Tutorial](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x) or you can enroll in the online course [here](https://javabrains.thinkific.com/courses/springboot-quickstart)
 *	[Spring Boot Examples](http://www.mkyong.com/tutorials/spring-boot-tutorials/) 
