@@ -28,8 +28,8 @@ The contents of this repository will be updated on the go with the assignments a
 | 2        	| Example of Project Specification<br/> Assignment 1 Specification <br/> How to use git classroom<br/>                                   		| Final Project subject.                             	|
 | 3        	| JDBC + Hibernate<br/>  TableModule + Transaction Script<br/> Abstract Factory<br/> Testing                               						|                                                    	|
 | 4        	| Grading of Deliverable 1<br/>                                               																	| Project Deliverable 1: Project Specification       	|
-| 5        	| Assign Design Pattern for Deliverable 2<br/>Grading of Assignment 1<br/> Assignment 2 Specification                      						| Assignment 1: *Server*  Data Access + Business     	|
-| 6        	| Presentation of MV*<br/> Observable<br/> Discuss Final Project Analysis and Design Document<br/> 											 	| Project Deliverable 2: Design Pattern Presentation 	|
+| 5        	| Assign Design Pattern for Deliverable 2<br/>Grading of Assignment 1<br/>Assignment 2 Specification<br/>Presentation of MV*                 	| Assignment 1: *Server*  Data Access + Business     	|
+| 6        	| JavaFX Example<br/> Late A1 submissions<br/> Discuss Final Project Analysis and Design Document<br/> 					 						| Late A1 Submissions									|
 | 7        	| Each student presents his design pattern<br/> Spring boot walk-through: Structure and concepts                        						| Project Deliverable 2: Design Pattern Presentation 	|
 | 8        	| Grading of Assignment 2<br/> Specification of Assignment 3<br/> Sockets<br/> JSON<br/> Command Factory<br/>                               	| Assignment 2: *Client* MVC                         	|
 | 9        	| Grading of Deliverable 3<br/> Spring Boot Thymeleaf + Security                                                          						| Project Deliverable 3: Project Analysis and Design 	|
