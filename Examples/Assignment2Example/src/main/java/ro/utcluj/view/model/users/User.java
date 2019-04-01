@@ -1,4 +1,4 @@
-package ro.utcluj.model.users;
+package ro.utcluj.view.model.users;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

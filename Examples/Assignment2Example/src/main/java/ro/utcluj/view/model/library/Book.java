@@ -1,4 +1,4 @@
-package ro.utcluj.model.library;
+package ro.utcluj.view.model.library;
 
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.SimpleIntegerProperty;

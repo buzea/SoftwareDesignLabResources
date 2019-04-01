@@ -1,4 +1,4 @@
-package ro.utcluj.controller;
+package ro.utcluj.view.controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,14 +8,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import ro.utcluj.controller.helper.DialogsHelper;
-import ro.utcluj.model.library.Book;
-import ro.utcluj.model.library.Library;
+import ro.utcluj.view.controller.helper.DialogsHelper;
+import ro.utcluj.view.model.library.Book;
+import ro.utcluj.view.model.library.Library;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import static ro.utcluj.controller.helper.DialogsHelper.showCustomDialog;
+import static ro.utcluj.view.controller.helper.DialogsHelper.showCustomDialog;
 
 public class EmployeeController implements Initializable {
 

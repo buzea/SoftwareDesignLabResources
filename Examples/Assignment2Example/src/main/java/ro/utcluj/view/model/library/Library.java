@@ -1,4 +1,4 @@
-package ro.utcluj.model.library;
+package ro.utcluj.view.model.library;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -23,7 +23,7 @@ public class Library {
 
     private static final File                 xmlFile = new File("src/main/resources/Books.xml");
     private static       Library              instance;
-    private              ObservableList<Book> books;
+    private              ObservableList<Book> books; // because of this field from javafx.collections, this is actually a viewmodel
 
     private Library() {
 

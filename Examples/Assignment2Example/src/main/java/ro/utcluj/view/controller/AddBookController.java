@@ -9,12 +9,12 @@
  * not be copied, modified, distributed, or otherwise disseminated, in
  * whole or part, without the express written permission of Ullink.
  ************************************************************************/
-package ro.utcluj.controller;
+package ro.utcluj.view.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.TextField;
-import ro.utcluj.model.library.Book;
+import ro.utcluj.view.model.library.Book;
 
 import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;

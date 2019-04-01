@@ -9,7 +9,7 @@
  * not be copied, modified, distributed, or otherwise disseminated, in
  * whole or part, without the express written permission of Ullink.
  ************************************************************************/
-package ro.utcluj.controller.helper;
+package ro.utcluj.view.controller.helper;
 
 import javafx.scene.Node;
 import javafx.scene.control.Alert;

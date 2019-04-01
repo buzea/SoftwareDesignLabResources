@@ -1,5 +1,8 @@
-package ro.utcluj.controller;
+package ro.utcluj.view.controller;
 
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -10,11 +13,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import ro.utcluj.model.users.User;
-
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
+import ro.utcluj.view.controller.command.LoginCommand;
+import ro.utcluj.view.model.users.User;
 
 public class LoginController implements Initializable {
 
@@ -31,7 +31,9 @@ public class LoginController implements Initializable {
 	public void initialize(URL location, ResourceBundle resources) {
 		login.setOnAction(e -> {
 
-			User user = User.login(username.getText(), password.getText());
+			LoginCommand loginCommand = new LoginCommand(username.getText(), password.getText());
+			// we should add the command to the call stack before execution. this is skipped for now.
+			User user = loginCommand.execute();
 			if (user != null) {
 				if (user.getType() == User.Type.ADMIN) {
 					Alert alert = new Alert(Alert.AlertType.ERROR);

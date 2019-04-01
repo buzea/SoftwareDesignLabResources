@@ -1,6 +1,6 @@
-package ro.utcluj.model.users;
+package ro.utcluj.view.model.users;
 
-import ro.utcluj.model.library.Book;
+import ro.utcluj.view.model.library.Book;
 
 import java.util.List;
 
