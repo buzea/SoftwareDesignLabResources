@@ -1,0 +1,14 @@
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.csprojAssemblyReference.cache
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.csproj.CoreCompileInputs.cache
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.AssemblyInfoInputs.cache
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.AssemblyInfo.cs
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\bin\Debug\netcoreapp2.1\ParkingAppAPI.deps.json
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\bin\Debug\netcoreapp2.1\ParkingAppAPI.runtimeconfig.json
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\bin\Debug\netcoreapp2.1\ParkingAppAPI.runtimeconfig.dev.json
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\bin\Debug\netcoreapp2.1\ParkingAppAPI.dll
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\bin\Debug\netcoreapp2.1\ParkingAppAPI.pdb
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.dll
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.pdb
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.RazorAssemblyInfo.cache
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.RazorAssemblyInfo.cs
+D:\An3\sem2\SD\SoftwareDesignLabResources\API\ParkingAppAPI\ParkingAppAPI\obj\Debug\netcoreapp2.1\ParkingAppAPI.RazorTargetAssemblyInfo.cache
