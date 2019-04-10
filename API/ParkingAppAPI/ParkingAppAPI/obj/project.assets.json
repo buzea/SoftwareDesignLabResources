@@ -12748,23 +12748,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\razvythebest\\.nuget\\packages\\": {},
+    "C:\\Users\\razvan.rus\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\An3\\sem2\\SD\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\ParkingAppAPI.csproj",
+      "projectUniqueName": "C:\\Workspace\\SE\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\ParkingAppAPI.csproj",
       "projectName": "ParkingAppAPI",
-      "projectPath": "D:\\An3\\sem2\\SD\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\ParkingAppAPI.csproj",
-      "packagesPath": "C:\\Users\\razvythebest\\.nuget\\packages\\",
-      "outputPath": "D:\\An3\\sem2\\SD\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\obj\\",
+      "projectPath": "C:\\Workspace\\SE\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\ParkingAppAPI.csproj",
+      "packagesPath": "C:\\Users\\razvan.rus\\.nuget\\packages\\",
+      "outputPath": "C:\\Workspace\\SE\\SoftwareDesignLabResources\\API\\ParkingAppAPI\\ParkingAppAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\razvythebest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\razvan.rus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

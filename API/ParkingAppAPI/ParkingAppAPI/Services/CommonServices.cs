@@ -31,7 +31,7 @@ namespace ParkingAppAPI.Services
             {
                 PTI = car.PTI,
                 VIN = car.VIN,
-                User = car.User,
+                //User = car.User,
                 Requests = null
             };
 
@@ -70,9 +70,14 @@ namespace ParkingAppAPI.Services
                     ParkingLot = lot
                 });
             }
-            _parkingDbContext.Cars.Add(requestToAdd);
+            //_parkingDbContext.Cars.Add(requestToAdd);
             _parkingDbContext.SaveChanges();
 
+        }
+
+        public void AddRequest(RequestDTO request)
+        {
+            throw new NotImplementedException();
         }
 
         public IList<RequestDTO> GetRequests(UserDTO user)
