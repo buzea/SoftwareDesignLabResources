@@ -14,3 +14,10 @@ target/
 *.iml
 *.class
 .gradle/
+/API/ParkingAppAPI/.vs
+/API/ParkingAppAPI/ParkingAppAPI
+/API/ParkingAppAPI/.vs/ParkingAppAPI/v15
+/API/ParkingAppAPI/Server/obj
+/API/ParkingAppAPI/Server/bin/Debug/netcoreapp2.1
+/API/ParkingAppAPI/TestServer/bin/Debug/netcoreapp2.1
+/API/ParkingAppAPI/TestServer/obj
