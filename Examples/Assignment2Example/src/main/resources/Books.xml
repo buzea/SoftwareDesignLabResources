@@ -30,7 +30,7 @@
         <author>J. R. R Tolkien</author>
         <year>1960</year>
         <genre>Fiction</genre>
-        <quantity>102</quantity>
+        <quantity>101</quantity>
         <price>100.71</price>
     </Book>
 
@@ -47,7 +47,7 @@
         <author>M. Sadoveanu</author>
         <year>1936</year>
         <genre>History</genre>
-        <quantity>17</quantity>
+        <quantity>16</quantity>
         <price>3.33</price>
     </Book>
 <Book>
@@ -63,7 +63,7 @@
     <author>Vlad</author>
     <year>2019</year>
     <genre>SF</genre>
-    <quantity>33</quantity>
+    <quantity>32</quantity>
     <price>0.01</price>
   </Book>
 </library>
