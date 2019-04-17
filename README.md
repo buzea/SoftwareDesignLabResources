@@ -50,3 +50,5 @@ The contents of this repository will be updated on the go with the assignments a
 ## Resources for Assignment 2:
 *	[Model-View-* Patterns](https://docs.google.com/presentation/d/1RlRJl_5q7cNeaB6W3HWTmMxhjRbOjWzFFMa99Bej7Bo/edit?usp=sharing)
 
+## Resources for Assignment 3:
+*	[Client-Server Communication](https://docs.google.com/presentation/d/1z-JOKzbBTFrf9Kn8-0Z5QWvF-gGhT-0Vwqk10p9GGhY/edit?usp=sharing)
