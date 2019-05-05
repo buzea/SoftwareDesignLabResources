@@ -24,7 +24,7 @@
             <td><a th:href="'/removeTag/' + ${post.id}+'/'+${tag.id}">Remove</a></td>
         </tr>
         <tr>
-            <form th:action="@{/createPost}" th:object="${newMapping}" method="post">
+            <form th:action="@{/createTag}" th:object="${newMapping}" method="POST">
                 <td><input type="text" th:field="*{tagName}"/></td>
                 <td><input type="submit" value="Create"/></td>
                 <input type="hidden" th:field="*{post}">

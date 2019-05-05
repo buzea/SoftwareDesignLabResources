@@ -21,7 +21,7 @@
 			</thead>
 			<tbody>
 			<tr th:if="${posts.empty}">
-				<td colspan="2"> No Posts Available </td>
+				<td colspan="2"> No Posts Available. Please insert a post manually in the DB! </td>
 			</tr>
 			<tr th:each="postDTO : ${posts}">
 				<td><span th:text="${postDTO.id}"> Title </span></td>

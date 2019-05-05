@@ -33,7 +33,7 @@ The contents of this repository will be updated on the go with the assignments a
 | 7        	| Discuss Final Project Analysis and Design Document<br/>Each student presents his design pattern<br/>                     						| Project Deliverable 2: Design Pattern Presentation 	|
 | 8        	| Grading of Assignment 2<br/> Specification of Assignment 3<br/> 												                              	| Assignment 2: *Client* MVC                         	|
 | 9        	| A3 examples: Sockets, JSON, Request/Response<br/> Grading of Deliverable 3										            				| Project Deliverable 3: Project Analysis and Design 	|
-| 10       	| Spring Boot Walk-Through & Questions                                                                                 							|                                                    	|
+| 10       	| Spring Boot Walk-Through:<br/> Spring Security <br/> Spring Data JPA<br/> Spring Web															|                                                    	|
 | 11       	| Grading & Questions                                                                                                  							| Assignment 3: Client-Server sockets                	|
 | 12       	| Grading                                                                                                            							| Final Project                                      	|
 | 13       	| Grading                                                                                                            							| Final Project                                      	|

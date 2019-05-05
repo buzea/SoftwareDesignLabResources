@@ -12,6 +12,7 @@
 package ro.utcn.springbootdemo.controller;
 
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -34,22 +35,20 @@ public class ViewController {
         return "login";
     }
 
-    @RequestMapping({ "/index", "/" })
+    @RequestMapping({"/index", "/"})
     public String index() {
         return "index";
     }
 
-    @RequestMapping({ "/home" })
-    public String hello(Model model)
-    {
+    @RequestMapping({"/home"})
+    public String home(Model model) {
         List<Post> allPosts = postsService.getAllPosts();
         model.addAttribute("posts", allPosts);
         return "home";
     }
 
     @RequestMapping(path = "/details/{postId}", produces = "text/html")
-    public String details(@PathVariable("postId") long postId, Model model)
-    {
+    public String details(@PathVariable("postId") long postId, Model model) {
         Post post = postsService.getById(postId);
         model.addAttribute("post", post);
         model.addAttribute("tags", post.getTags());
@@ -57,9 +56,8 @@ public class ViewController {
         return "post_details";
     }
 
-    @RequestMapping(value = "/createPost", method = RequestMethod.POST)
-    public String createPost(@ModelAttribute PostTagDTO newMapping)
-    {
+    @RequestMapping(value = "/createTag", method = RequestMethod.POST)
+    public String createTag(@ModelAttribute PostTagDTO newMapping) {
         postsService.addOrCreateTag(newMapping.getPost(), newMapping.getTagName());
         Long postId = newMapping.getPost().getId();
         return "redirect:/details/" + postId;
